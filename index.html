@@ -1,0 +1,63 @@
+<!DOCTYPE> 
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman Game</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"
+</head>
+<body>
+
+    
+    
+    <div class="heading">
+        <h1>Hangman</h1>
+        <h2>80's Music</h2>
+    </div>
+    
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">Guess the 80's Band Name</h3>
+       </div>
+    
+        </div>
+        <div class="panel-body">
+            <h2 id="wordToGuess">_ _ _ _ _ _ _ </h2>
+        </div>
+    </div>
+
+    <div class = "container stats">
+        
+        <div class="panel panel-default">
+            <div class="panel-body">                
+                Wrong Guesses: <span id=wrongGuesses></span>
+            </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Guesses Left: <span id="numGuesses">9</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Win Counter: <span id="winCounter">0</span>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-body">
+                Loss Counter: <span id="lossCounter">0</span>
+            </div>
+        </div>
+             
+    </div>
+
+
+    <!-- link to Javascript -->
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+</html>

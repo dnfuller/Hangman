@@ -1,35 +1,84 @@
-.heading {
-    width: 33%;
-    background: black;
-    color: white;
-    text-align: center;
+/* @import url("http://fonts.googleapis.com/css?family=Mr+Dafoe");
+@import url("http://fonts.googleapis.com/css?family=Titillium+Web:900");
+@import url("http://fonts.googleapis.com/css?family=Righteous");
+@import url("http://fonts.googleapis.com/css?family=Candal");
+@import url("http://fonts.googleapis.com/css?family=Monoton"); */
+@import url("http://fonts.googleapis.com/css?family=Permanent+Marker");
+
+body {
+  background-color: black;
 }
 
-.panel-heading {
-    width: 33%;
-    background: black;
-    color: white;
-    font-size: 30px;
-    margin-left: 0;
-    text-align: center;
+* {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 3px;
+}
+
+.header-img {
+  width: 100%;
+  height: 400px;
+}
+
+.bg-img {
+  opacity: 0.4;
+  width: 100%;
+  align-content: center;
+}
+
+.container {
+  height: 400px;
+  color: black;
+  background: url("../images/bg_2_lightened.png") no-repeat center;
+  background-size: cover;
+  text-align: center;
+  border-radius: 1%;
 }
 
 #wordToGuess {
-    width: 33%;
-    height: 60px;
-    background: black;
-    color: white;
-    padding-top: 15px;
-    margin-left: 0;
-    text-align: center;
-    font-size: 25px;
+  font-weight: 16px;
 }
 
-.stats {
-    width: 33%;
-    background: black;
-    color: white;   
-    margin-left: 0;
-    text-align: center;
-    font-size: 25px;
+#hintClue {
+  padding-left: 50px;
+}
+
+#hint {
+  background: rgba(72, 97, 241, 0.5);
+  float: left;
+}
+
+#clue {
+  padding-left: 10px;
+  padding-top: 5px;
+  float: left;
+}
+
+h3 {
+  padding-top: 20px;
+}
+
+#game {
+  font-size: 22px;
+  width: 100%;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-top: 35px;
+  padding-left: 15px;
+  text-align: left;
+  font-weight: 22px;
+  float: left;
+  border-radius: 5%;
+}
+
+#play {
+  font-size: 19px;
+  width: 100%;
+  margin-top: 55px;
+  padding-left: 55px;
+  float: right;
+}
+
+.empty-div {
+  margin-bottom: 25px;
 }
